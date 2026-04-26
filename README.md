@@ -34,7 +34,7 @@ Follow these steps to retrieve the data and convert it for use in Excel:
 Run the following command in your terminal to save the data directly to a file. 
 *Note: Replace `YOUR_API_KEY` with your actual credentials.*
 
-curl "https://ahfs-staging.firebaseio.com/drugShortages.json?auth=YOUR_API_KEY" -o drug_shortages.json
+curl [https://ashp-drug-shortages.firebaseio.com/pastDrugShortages.json?auth=YOUR API KEY](https://ashp-drug-shortages.firebaseio.com/pastDrugShortages.json?auth=YPUR API KEY) -o drug_shortages.json --progress-bar.
 
 
 ## 3. Convert to Excel
